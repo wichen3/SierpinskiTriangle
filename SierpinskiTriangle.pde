@@ -2,11 +2,11 @@ int b = (int)(Math.random() * 255) + 1;
 public void setup()
 {
 	size(500, 500);
-	background(225);
+	background(0);
 }
 public void draw()
 {
-	fill(0);
+	fill(255);
 	sierpinski(50,50,400);
 }
 public void mouseDragged()//optional
